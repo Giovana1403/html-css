@@ -1,0 +1,87 @@
+body {
+    margin-top: 20px;
+    background-color: rgb(226, 233, 232);
+    font: 15pt Arial;
+}
+
+main {
+    color: rgb(17, 17, 112);
+    background-color: white;
+    width: 550px;
+    padding: 20px;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+h1 {
+    color:white;
+}
+aside {
+    color: white;
+    display: block; 
+    font-size: 15pt;
+    text-align:left;
+    background-color:rgb(17, 17, 112);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input {
+    width: 540px;
+    background-color: rgb(222, 240, 217);
+    height: 30px;
+    font: 15pt Arial;
+    margin-top: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(17, 17, 112);
+}
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid rgb(17, 17, 112);
+    border-radius: 5px;
+    color: rgb(17, 17, 112);
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font: 15pt Arial;
+    line-height: 1;
+    margin-top: 15px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: white;
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px rgb(17, 17, 112) inset;
+  }
+  select {
+    width: 550px;
+    background-color: rgb(222, 240, 217);
+    height: 35px;
+    font: 15pt Arial;
+    margin-top: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(17, 17, 112);
+}

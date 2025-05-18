@@ -1,0 +1,18 @@
+@charset "UTF-8"
+<style>
+        body{
+            background-color: rgb(86, 224, 178);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            
+        }
+        h1 {
+            color: rgb(5, 94, 94);
+        }
+        h2{
+            color: rgb(16, 80, 80);
+        }
+        p{
+            text-align:left;
+        }
+    </style>

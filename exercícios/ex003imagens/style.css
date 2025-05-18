@@ -1,0 +1,28 @@
+body {
+    margin-top: 20px;
+    background-color: rgb(243, 15, 15);
+    font: 15pt Arial;
+}
+
+main {
+    color: rgb(12, 4, 7);
+    background-color: white;
+    width: 550px;
+    padding: 20px;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+h1 {
+    color:white;
+}
+aside {
+    color: white;
+    display: block; 
+    font-size: 15pt;
+    text-align:left;
+    background-color:rgb(10, 10, 17);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
