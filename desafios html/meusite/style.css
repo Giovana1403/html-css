@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'kaoly demo';
+    src: url(https://www.dafont.com/pt/kaoly.font) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+--cor01: #D770FF;
+--cor02: #6e326e;
+--cor03: #a158af;
+--cor04: #eab6f5;
+--cor05: #490446;
+
+--fonte-padrao: 'Arial, Verdana, Helvetica, Sans-serif';
+--fonte-destaque: 'kaoly demo'
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e3c5e9;
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-color: #490446;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+header > h1{ 
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.562);}
+
+    nav{
+        background-color: #490446;
+        padding: 10px;
+    }
+
+    
+    nav>a{
+        color:#e3c5e9;
+        padding: 10px;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    a:hover{
+        color:#6e326e;
+        background-color: #9c5a9c;
+        border-radius: 5px;
+    }
+    
+
+main{
+    background-color: white;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px  ;
+}
+
+main h1{
+    color: #490446;
+    margin: 10px;
+    font-size: 3em;
+}
+
+main a{
+    color: #D770FF;
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+footer{
+    color: #e3c5e9;
+    background-color: #6e326e;
+    text-align: center;
+}
+
+footer>a{
+color:#e3c5e9;
+text-decoration: none;
+}
+
+ footer a:hover{
+    color: #e3c5e9;
+ }
