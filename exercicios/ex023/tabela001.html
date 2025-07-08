@@ -10,15 +10,21 @@
         }
         table{
             width: 400px;
+            height: 400px;
             border: 2px solid purple;
             border-collapse: collapse;
         }
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: top;
         }
         tr{
             background-color: plum;
+        }
+        td:hover{
+            text-align: right;
         }
     </style>
 </head>
@@ -28,7 +34,7 @@
         <tr>
             <td>A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="numero">C1</td>
         </tr>
         <tr>
             <td>A2</td>
